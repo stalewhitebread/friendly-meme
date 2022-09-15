@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en" >
+<head>
+
+  <meta charset="UTF-8">
+  <title>namer game2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body class="container-fluid">
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+   
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ethan Criddle</a>
+    </div>
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="https://github.com/stalewhitebread/urban-invention">Give me your personal info!!</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- partial:index.partial.html -->
+<div class="row">
+  <h1>Name (not)Game</h1>
+  </div>
+  <hr>
+ 
+<div class="row">
+  <h3>Pick an option!</h3>
+</div>
+
+<div id="outputDiv" class="row">
+  <div class="col-md-4 offset-md-4"> 
+  <h1 id="outputMsg">Wow! Such Doge!</h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class="card col-md-5 offset-md-1">
+    <div class="card-body">
+      <h4 class="card-title">Enter First Name!</h4>
+      <input
+              type="text"
+              id="firstName"
+              class="form-control"
+              name="firstName"
+            />
+      <button id="btnGetFacts" class="btn btn-secondary">
+        get cool facts
+      </button>
+      <span id="coolNameFactsOutput"> </span>
+            <img id="coolNameImg" />
+        
+    </div>
+  </div>
+
+  <div class="card col-md-5 offset-md+1">
+    <div class="card-body">
+      <h4 class="card-title">Enter ur Last Name!!</h4>
+      <input
+              type="text"
+              id="lastName"
+              class="form-control"
+              name="lastName"
+            />
+      <button id="btnGetFacts2" class="btn btn-secondary">
+        get cool facts
+      </button>
+      <span id="coolNameFactsOutput2"> </span>
+            <img id="coolNameImg2" />
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="scripts/script.js"></script>
+
+</body>
+</html>
