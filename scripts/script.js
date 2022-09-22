@@ -32,7 +32,8 @@ $(document).ready(function(){
 });
 
 function nameLength(name) {
-  return "Your name would be 8 letters long if it was Fernando! Cool!";
+  console.log("passed name", name);
+  return "Your name would be 8 letters long if it was Fernando! Cool! It is also, like, " + name.length + " long but who cares...";
 }
 
 function getSpiritAnimal(lastName) {
